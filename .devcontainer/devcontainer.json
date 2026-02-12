@@ -1,0 +1,20 @@
+{
+  "name": "Windows 11 on Codespace",
+  "dockerComposeFile": "../docker-compose.yml",
+  "service": "devcontainer",
+  "workspaceFolder": "/workspace",
+  "features": {},
+  "forwardPorts": [8006],
+  "portsAttributes": {
+    "8006": {
+      "label": "Windows 11 (noVNC)",
+      "onAutoForward": "openBrowser"
+    }
+  },
+  "hostRequirements": {
+    "cpus": 4,
+    "memory": "16gb",
+    "storage": "64gb"
+  },
+  "postStartCommand": "echo '✅ Windows 11 VM is starting! Open the forwarded port 8006 in your browser to access it.'"
+}
