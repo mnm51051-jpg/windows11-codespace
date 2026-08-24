@@ -15,7 +15,7 @@ Push this project to a new GitHub repository:
 git init
 git add .
 git commit -m "Initial commit: Windows 11 Codespace"
-git remote add origin https://github.com/YOUR_USERNAME/windows11-codespace.git
+git remote add origin https://github.com/mnm51051-jpg/windows11-codespace.git
 git branch -M main
 git push -u origin main
 ```
